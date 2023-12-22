@@ -1,0 +1,106 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: grey;
+    
+
+}
+hr {
+    width: 500px;
+
+}
+h1{
+    width:500px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-66%,-50%);
+    padding: 20x;
+    color: white;
+    font-size: 16em;
+    letter-spacing: 0.2em;
+    z-index: -1;
+    
+    
+
+}
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: rgba(210, 210, 210, 0.808);
+    border: 6px solid rgb(86, 86, 86);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid  rgb(86, 86, 86);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: white;
+}
+.x2 {
+    background-color: rgba(210, 210, 210, 0.808);
+    color: rgb(86, 86, 86);
+
+}
+.x4 {
+    background-color: rgb(200,220,227);
+    color: white;
+}
+.x8 {
+    background-color: rgb(130,188,224);
+    color: white;
+}
+.x16 {
+    background-color: rgb(127,149,255);
+    color: white;
+}
+.x32 {
+    background-color:rgb(115,91,255);
+    color: white;
+}
+.x64 {
+    background-color: #6751e5;
+    color: white;
+}
+.x128 {
+    background-color: #5c48cc;
+    color: white;
+}
+.x256 {
+    background-color: #453699;
+    color: white;
+}
+.x512 {
+    background-color: #2e2466;
+    color: white;
+}
+.x1024 {
+    background-color: #171233;
+    color: white;
+}
+.x2048 {
+    background-color: hsl(50.6, 100%, 50%);
+    color: white;
+}
+.x4096 {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+}
+.x8192 {
+    background-color: rgb(255, 0, 225); 
+    color: white
+}
